@@ -5,6 +5,7 @@ aiohttp==3.8.3
 aiohttp-retry==2.8.3
 aioitertools==0.11.0
 aiosignal==1.3.1
+alabaster==0.7.13
 alibi-detect==0.10.4
 aliyun-python-sdk-core==2.13.36
 aliyun-python-sdk-kms==2.16.0
@@ -27,10 +28,12 @@ azure-core==1.26.2
 azure-datalake-store==0.0.52
 azure-identity==1.12.0
 azure-storage-blob==12.14.1
+Babel==2.11.0
 backcall==0.2.0
 bcrypt==4.0.1
 beautifulsoup4==4.11.1
 billiard==3.6.4.0
+binaryornot==0.4.4
 bleach==5.0.1
 boto3==1.24.59
 botocore==1.27.59
@@ -39,6 +42,7 @@ catalogue==2.0.8
 celery==5.2.7
 certifi==2022.12.7
 cffi==1.15.1
+chardet==5.1.0
 charset-normalizer==2.1.1
 click==8.1.3
 click-didyoumean==0.3.0
@@ -49,6 +53,8 @@ comm==0.1.2
 commonmark==0.9.1
 configobj==5.0.7
 contourpy==1.0.7
+cookiecutter==2.1.1
+coverage==7.0.5
 crcmod==1.7
 cryptography==39.0.0
 csv2md==1.1.2
@@ -60,6 +66,7 @@ dictdiffer==0.9.0
 dill==0.3.6
 diskcache==5.4.0
 distro==1.8.0
+docutils==0.19
 dpath==2.1.4
 dulwich==0.21.1
 dvc==2.41.1
@@ -85,6 +92,7 @@ executing==1.2.0
 fastapi==0.89.1
 fastjsonschema==2.16.2
 filelock==3.9.0
+flake8==6.0.0
 flatten-dict==0.4.2
 flufl.lock==7.1.1
 fonttools==4.38.0
@@ -116,6 +124,7 @@ huggingface-hub==0.11.1
 hydra-core==1.3.1
 idna==3.4
 imageio==2.24.0
+imagesize==1.4.1
 importlib-metadata==6.0.0
 ipykernel==6.20.2
 ipython==8.8.0
@@ -126,6 +135,7 @@ isoduration==20.11.0
 iterative-telemetry==0.0.6
 jedi==0.18.2
 Jinja2==3.1.2
+jinja2-time==0.2.0
 jmespath==0.10.0
 joblib==1.2.0
 jsonpointer==2.3
@@ -148,6 +158,7 @@ macholib @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot2/ActiveB
 MarkupSafe==2.1.2
 matplotlib==3.6.3
 matplotlib-inline==0.1.6
+mccabe==0.7.0
 mistune==2.0.4
 msal==1.20.0
 msal-extensions==1.0.0
@@ -193,11 +204,13 @@ pure-eval==0.2.2
 pyarrow==10.0.1
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
+pycodestyle==2.10.0
 pycparser==2.21
 pycryptodome==3.16.0
 pydantic==1.10.4
 pydot==1.4.2
 PyDrive2==1.15.0
+pyflakes==3.0.1
 pygit2==1.11.1
 Pygments==2.14.0
 pygtrie==2.5.0
@@ -208,6 +221,7 @@ pyrsistent==0.19.3
 python-box==6.1.0
 python-dateutil==2.8.2
 python-json-logger==2.0.4
+python-slugify==7.0.0
 pytz==2022.7.1
 PyWavelets==1.4.1
 PyYAML==6.0
@@ -237,7 +251,15 @@ shtab==1.5.8
 six @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot2/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-124/six-1.15.0-py2.py3-none-any.whl
 smmap==5.0.0
 sniffio==1.3.0
+snowballstemmer==2.2.0
 soupsieve==2.3.2.post1
+Sphinx==6.1.3
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-htmlhelp==2.0.0
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-serializinghtml==1.1.5
+sphinxcontrib.applehelp==1.0.3
 SQLAlchemy==1.4.46
 sshfs==2022.6.0
 stack-data==0.6.2
@@ -246,6 +268,7 @@ statsmodels==0.13.5
 tabulate==0.9.0
 tenacity==8.1.0
 terminado==0.17.1
+text-unidecode==1.3
 threadpoolctl==3.1.0
 tifffile==2022.10.10
 tinycss2==1.2.1
