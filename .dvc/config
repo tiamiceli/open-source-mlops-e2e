@@ -1,0 +1,4 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = /Users/miceli/OREILLY_MLOPS/temp_data/
